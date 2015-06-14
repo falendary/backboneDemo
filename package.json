@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergey Zhitenev <zhitenev36@gmail.com> (https://github.com/falendary)",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp-concat": "~2.5.2",
+    "gulp-coffee": "~2.3.1",
+    "gulp": "~3.9.0",
+    "gulp-csso": "~1.0.0",
+    "gulp-scss": "~1.1.2",
+    "gulp-uglify": "~1.2.0",
+    "gulp-connect": "~2.2.0",
+    "gulp-util": "~3.0.5",
+    "express": "~4.12.4"
+  }
 }

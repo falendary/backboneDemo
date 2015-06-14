@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,sBACA;EACC,UAAU,EAAE,UAAU",
+"sources": ["../../../../app/assets/scss/base.scss"],
+"names": [],
+"file": "base.css"
+}
