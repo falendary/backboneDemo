@@ -13,8 +13,10 @@ $(document).ready(function () {
 	});
 	$(".nav.navbar-nav li>a").on("click", function()
 	{
+		console.log("test")
 		var movieState;
 		movieState = $(".task-sidebar:first-child>a").data("movie")
+		console.log(movieState)
 		if (movieState == true) {
 			$(".watchmovie").show();
 		}

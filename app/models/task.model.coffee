@@ -9,6 +9,8 @@ class TasksList extends Backbone.Collection
     initialize: ->
 
         @fetch {
+            reset: true
+            async: false
             success: @fetchSuccess
             error: @fetchError
         }

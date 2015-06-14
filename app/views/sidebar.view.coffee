@@ -4,8 +4,7 @@ class SidebarView extends Backbone.View
 
     initialize: ->
         _.bindAll(@, 'render')
-
-
+        
     render: ->
         templateEl = $ "#sidebar_template"
         template = _.template templateEl.html(), {}

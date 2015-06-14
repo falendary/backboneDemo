@@ -30,7 +30,7 @@ gulp.task('js', function() {
         .pipe(coffee({bare: true}))
         .on('error', console.log)
         .pipe(concat('app.min.js')) // Склеиваем JS
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest('./public/js/'))
         .pipe(connect.reload()); // даем команду на перезагрузку страницы
 });

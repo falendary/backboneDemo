@@ -12,6 +12,7 @@ class Description extends Backbone.Collection
     initialize: ->
 
         @fetch {
+            async: false
             success: @fetchSuccess
             error: @fetchError
         }

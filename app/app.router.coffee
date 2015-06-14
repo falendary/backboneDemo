@@ -8,7 +8,7 @@ class appRouter extends Backbone.Router
 		"": "defaultRoute"
 
 	defaultRoute: ->
-		task_view.render()
+		task_view.render(1)
 		sidebar_view.render();
 
 
